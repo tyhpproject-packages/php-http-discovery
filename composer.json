@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/php-http-discovery",
+    "description": "Tyhp type definitions for php-http/discovery 1.20.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "1.20.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/php-http-discovery-impl": "~1.20.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/php-http-discovery-impl"
+        }
+    }
+}
